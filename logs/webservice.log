@@ -1,0 +1,199 @@
+2023-04-28 13:51:55,771 INFO com.hdfc.emp.capstone.ems.project.EmpsystemApplication [main] Starting EmpsystemApplication using Java 1.8.0_361 on agraharams-Air with PID 17013 (/Users/agraharamsaihariprasad/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/Empsystem/bin/main started by agraharamsaihariprasad in /Users/agraharamsaihariprasad/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/Empsystem)
+2023-04-28 13:51:55,777 INFO com.hdfc.emp.capstone.ems.project.EmpsystemApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-28 13:51:56,731 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28 13:51:56,755 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2023-04-28 13:51:57,661 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-28 13:51:57,687 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-04-28 13:51:57,688 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-28 13:51:57,907 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-28 13:51:57,907 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2048 ms
+2023-04-28 13:51:58,113 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-04-28 13:51:58,117 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2023-04-28 13:51:58,145 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-28 13:51:58,170 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-04-28 13:52:40,981 INFO com.hdfc.emp.capstone.ems.project.EmpsystemApplication [main] Starting EmpsystemApplication using Java 1.8.0_361 on agraharams-Air with PID 17031 (/Users/agraharamsaihariprasad/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/Empsystem/bin/main started by agraharamsaihariprasad in /Users/agraharamsaihariprasad/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/Empsystem)
+2023-04-28 13:52:40,987 INFO com.hdfc.emp.capstone.ems.project.EmpsystemApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-28 13:52:41,924 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28 13:52:41,954 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2023-04-28 13:52:42,807 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-28 13:52:42,828 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-04-28 13:52:42,829 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-28 13:52:43,146 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-28 13:52:43,146 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2085 ms
+2023-04-28 13:52:43,250 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-04-28 13:52:43,258 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2023-04-28 13:52:43,287 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-28 13:52:43,321 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-04-28 13:55:35,589 INFO com.hdfc.emp.capstone.ems.project.EmpsystemApplication [main] Starting EmpsystemApplication using Java 1.8.0_361 on agraharams-Air with PID 17097 (/Users/agraharamsaihariprasad/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/Empsystem/bin/main started by agraharamsaihariprasad in /Users/agraharamsaihariprasad/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/Empsystem)
+2023-04-28 13:55:35,598 INFO com.hdfc.emp.capstone.ems.project.EmpsystemApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-28 13:55:36,552 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28 13:55:36,580 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2023-04-28 13:55:37,500 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-28 13:55:37,524 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-04-28 13:55:37,524 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-28 13:55:37,831 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-28 13:55:37,832 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2150 ms
+2023-04-28 13:55:37,945 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-04-28 13:55:37,954 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2023-04-28 13:55:37,980 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-28 13:55:38,009 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-04-28 14:00:29,509 INFO com.hdfc.emp.capstone.ems.project.EmpsystemApplication [restartedMain] Starting EmpsystemApplication using Java 1.8.0_361 on agraharams-Air with PID 17202 (/Users/agraharamsaihariprasad/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/Empsystem/bin/main started by agraharamsaihariprasad in /Users/agraharamsaihariprasad/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/Empsystem)
+2023-04-28 14:00:29,514 INFO com.hdfc.emp.capstone.ems.project.EmpsystemApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-28 14:00:29,616 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-28 14:00:29,617 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-28 14:00:30,998 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28 14:00:31,032 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2023-04-28 14:00:31,729 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$1edcba03] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-28 14:00:31,858 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-28 14:00:32,798 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 7777 (https)
+2023-04-28 14:00:32,817 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-28 14:00:32,817 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-28 14:00:32,974 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-28 14:00:32,974 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3355 ms
+2023-04-28 14:00:33,051 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-04-28 14:00:33,518 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-04-28 14:00:33,540 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:92536e3d-b6e9-4bc8-8ec0-5595bae11356'
+2023-04-28 14:00:33,770 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28 14:00:33,902 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-28 14:00:34,182 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-28 14:00:34,413 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-04-28 14:00:35,360 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28 14:00:35,589 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28 14:00:35,602 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'employeeRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hdfc.emp.capstone.ems.project.repository.EmployeeRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-04-28 14:00:35,602 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28 14:00:35,603 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [restartedMain] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-04-28 14:00:35,822 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [restartedMain] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-04-28 14:00:35,823 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2023-04-28 14:00:35,830 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2023-04-28 14:00:35,833 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2023-04-28 14:00:35,860 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-28 14:00:35,908 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field employeeRepository in com.hdfc.emp.capstone.ems.project.sevice.EmployeeServiceImpl required a bean of type 'com.hdfc.emp.capstone.ems.project.repository.EmployeeRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.hdfc.emp.capstone.ems.project.repository.EmployeeRepository' in your configuration.
+
+2023-04-28 14:02:46,051 INFO com.hdfc.emp.capstone.ems.project.EmpsystemApplication [restartedMain] Starting EmpsystemApplication using Java 1.8.0_361 on agraharams-Air with PID 17294 (/Users/agraharamsaihariprasad/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/Empsystem/bin/main started by agraharamsaihariprasad in /Users/agraharamsaihariprasad/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/Empsystem)
+2023-04-28 14:02:46,063 INFO com.hdfc.emp.capstone.ems.project.EmpsystemApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-28 14:02:46,213 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-28 14:02:46,214 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-28 14:02:47,854 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28 14:02:47,883 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2023-04-28 14:02:48,648 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9d36caa0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-28 14:02:48,740 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-28 14:02:49,709 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 7777 (https)
+2023-04-28 14:02:49,726 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-28 14:02:49,727 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-28 14:02:49,868 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-28 14:02:49,869 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3651 ms
+2023-04-28 14:02:49,914 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-04-28 14:02:50,210 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-04-28 14:02:50,232 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:2854ae51-0481-41a1-9f1d-112a60659867'
+2023-04-28 14:02:50,429 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28 14:02:50,499 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-28 14:02:50,739 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-28 14:02:50,937 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-04-28 14:02:51,841 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28 14:02:52,015 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28 14:02:52,030 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'employeeRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hdfc.emp.capstone.ems.project.repository.EmployeeRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-04-28 14:02:52,030 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28 14:02:52,031 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [restartedMain] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-04-28 14:02:52,251 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [restartedMain] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-04-28 14:02:52,252 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2023-04-28 14:02:52,261 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2023-04-28 14:02:52,264 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2023-04-28 14:02:52,287 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-28 14:02:52,330 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field employeeRepository in com.hdfc.emp.capstone.ems.project.sevice.EmployeeServiceImpl required a bean of type 'com.hdfc.emp.capstone.ems.project.repository.EmployeeRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.hdfc.emp.capstone.ems.project.repository.EmployeeRepository' in your configuration.
+
